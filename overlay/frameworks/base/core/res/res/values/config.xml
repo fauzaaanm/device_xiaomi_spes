@@ -731,4 +731,6 @@
         <item>150</item> <!--item>sensorRadius</item-->
     </array>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
 </resources>
