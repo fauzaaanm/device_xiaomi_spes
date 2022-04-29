@@ -23,10 +23,15 @@
          Max((status bar content height + waterfall top size), top cutout size) -->
     <dimen name="status_bar_height">93.0px</dimen>
 
-    <!-- Radius of the software rounded corners. -->
+    <!-- Default radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">106.0px</dimen>
 
-    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">16px</dimen>
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">106.0px</dimen>
+
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">106.0px</dimen>
 
 </resources>
