@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_spes.mk
+    $(LOCAL_DIR)/awaken_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_spes-user \
-    nad_spes-userdebug \
-    nad_spes-eng
+    awaken_spes-user \
+    awaken_spes-userdebug \
+    awaken_spes-eng
