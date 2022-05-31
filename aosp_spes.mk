@@ -16,7 +16,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_USES_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
-USE_PIXEL_CHARGING := true
 
 # Product Specifics
 PRODUCT_NAME := aosp_spes
